@@ -57,7 +57,9 @@ function ContactStore() {
 			})
 		},
 		getOne: function(jobRole) {
-
+			return new Promise(function(resolve, reject) {
+				qw
+			})
 		},
 		save: function(contact) {
 			return new Promise(function(resolve, reject) {
